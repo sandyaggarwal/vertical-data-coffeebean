@@ -1,0 +1,7 @@
+{
+    "data": {
+        "customerExport": {
+            "data": "[[\"email\",\"_website\",\"_store\",\"website_id\",\"store_id\",\"created_in\",\"prefix\",\"firstname\",\"middlename\",\"lastname\",\"suffix\",\"group_id\",\"dob\",\"password_hash\",\"rp_token\",\"rp_token_created_at\",\"taxvat\",\"confirmation\",\"created_at\",\"gender\",\"disable_auto_group_change\",\"updated_at\",\"failures_num\",\"first_failure\",\"lock_expires\",\"reward_update_notification\",\"reward_warning_notification\",\"password\"],[\"roni_cost@example.com\",\"base\",\"default\",\"1\",\"1\",\"Default Store View\",\"\",\"Veronica\",\"\",\"Costello\",\"\",\"1\",\"1973-12-15\",\"\",\"\",\"\",\"\",\"\",\"2022-09-23 14:53:51\",\"Female\",\"0\",\"2022-09-23 14:53:51\",\"0\",\"\",\"\",\"\",\"\",\"roni_cost3@example.com\"]]"
+        }
+    }
+}
