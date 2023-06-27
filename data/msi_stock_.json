@@ -1,0 +1,14 @@
+{
+    "data": {
+        "msiStock": {
+            "items": [
+
+                {
+                    "site_code": "base",
+                    "source_code": "sfcafe,us_store,us_warehouse",
+                    "stock_name": "North America"
+                }
+            ]
+        }
+    }
+}

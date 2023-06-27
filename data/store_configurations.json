@@ -1,0 +1,44 @@
+{
+    "data": {
+        "storeConfigurations": {
+            "items": [
+                {
+                    "path": "catalog/custom_options/use_calendar",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "1"
+                },
+                {
+                    "path": "design/head/includes",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "<link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"{{MEDIA_URL}}styles.css\" /><!-- START THEME CUSTOMIZER --><link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"https://industrials-plyghvq-blsmelh4mlnm4.demo.magentosite.cloud/media/ThemeCustomizer/MagentoLuma.css\" /><!-- END THEME CUSTOMIZER -->"
+                },
+                {
+                    "path": "design/head/shortcut_icon",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "stores/24/Selecto_Coffee.png"
+                },
+                {
+                    "path": "design/header/logo_src",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "stores/24/Selecto_Coffee_1.png"
+                },
+                {
+                    "path": "general/store_information/name",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "Luma, Inc."
+                },
+                {
+                    "path": "web/default/cms_home_page",
+                    "scope": "stores",
+                    "scope_code": "selectocoffeebean",
+                    "value": "home"
+                }
+            ]
+        }
+    }
+}

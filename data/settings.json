@@ -1,0 +1,10 @@
+{
+    "data": {
+        "dataInstallerStoreSettings": {
+            "store_code": "selectocoffeebean",
+            "store_view_code": "selectocoffeebean",
+            "site_code": "base",
+            "product_validation_strategy":"validation-stop-on-errors"
+        }
+    }
+}

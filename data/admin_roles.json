@@ -1,0 +1,1088 @@
+{
+    "data": {
+        "adminRoles": {
+            "items": [
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_AdvancedCheckout::magento_advancedcheckout"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_AdvancedCheckout::update"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_AdvancedCheckout::view"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Backend::admin"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Cart::cart"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Cart::manage"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Company::add"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Company::delete"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Company::index"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Company::manage"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Company::reimburse_balance"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::actions"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::customer"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::delete"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::group"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::invalidate_tokens"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::manage"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::online"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Customer::reset_password"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_CustomerSegment::customersegment"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_LoginAsCustomer::allow_shopping_assistance"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_LoginAsCustomer::login"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_LoginAsCustomerLog::login_log"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_NegotiableQuote::decline"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_NegotiableQuote::print"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_NegotiableQuote::save_as_draft"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_NegotiableQuote::send"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_NegotiableQuote::view_quotes"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::actions_manage"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::authorization"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::billing_agreement"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::billing_agreement_actions"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::billing_agreement_actions_view"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Paypal::use"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Reward::reward_balance"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Reward::reward_spend"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Rma::magento_rma"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::actions"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::actions_edit"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::actions_view"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::cancel"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::capture"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::comment"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::create"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::creditmemo"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::email"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::emails"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::hold"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::invoice"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::reorder"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::review_payment"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::sales"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::sales_creditmemo"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::sales_invoice"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::sales_operation"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::sales_order"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::ship"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::shipment"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::transactions"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::transactions_fetch"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_Sales::unhold"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::add"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::archive"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::creditmemos"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::invoices"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::orders"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::remove"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "Magento_SalesArchive::shipments"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "ParadoxLabs_Subscriptions::subscriptions"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "ParadoxLabs_Subscriptions::subscriptions_manage"
+                },
+                {
+                    "role": "Sales",
+                    "resource_id": "ParadoxLabs_TokenBase::cards_manage"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Amasty_SalesRuleWizard::wizard"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "MagentoEse_ThemeCustomizer::skins"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_AdobeStockImageAdminUi::license_images"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_AdobeStockImageAdminUi::media_gallery"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_AdobeStockImageAdminUi::save_preview_images"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Analytics::advanced_reporting"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Analytics::bi_essentials"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Analytics::business_intelligence"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::admin"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::content"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::content_elements"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::content_translation"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::design"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::marketing"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::marketing_communications"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::marketing_seo"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::marketing_user_content"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Backend::schedule"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Banner::magento_banner"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_CatalogEvent::events"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_CatalogRule::promo"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_CatalogRule::promo_catalog"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::block"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::media_gallery"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::page"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::page_delete"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::save"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Cms::save_design"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_CustomerSegment::segment"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Email::template"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Enterprise::marketing_private_sales"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_GiftCardAccount::customer_giftcardaccount"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Invitation::general"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Invitation::magento_invitation"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Invitation::magento_invitation_customer"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Invitation::order"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Invitation::report_magento_invitation"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_LiveSearch::livesearch"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::create_folder"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::delete_assets"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::delete_folder"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::edit_assets"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::insert_assets"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MediaGalleryUiApi::upload_assets"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_MultipleWishlist::wishlist"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Newsletter::problem"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Newsletter::queue"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Newsletter::subscriber"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Newsletter::template"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PageBuilder::templates"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PageBuilder::template_apply"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PageBuilder::template_delete"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PageBuilder::template_save"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Paypal::fetch"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Paypal::paypal_settlement_reports"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Paypal::paypal_settlement_reports_view"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_ProductRecommendationsAdmin::product_recommendations"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PromotionPermissions::edit"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PromotionPermissions::magento_reminder_edit"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_PromotionPermissions::quote_edit"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reminder::magento_reminder"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::abandoned"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::accounts"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::bestsellers"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::coupons"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::customers"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::customers_orders"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::downloads"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::invoiced"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::lowstock"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::product"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::refunded"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::report"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::report_marketing"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::report_products"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::report_search"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::review"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::review_customer"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::review_product"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::salesroot"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::salesroot_sales"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::shipping"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::shopcart"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::sold"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::statistics"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::statistics_refresh"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::tax"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::totals"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Reports::viewed"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Review::pending"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Review::reviews_all"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_SalesRule::quote"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Search::search"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Search::synonyms"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Sitemap::sitemap"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Staging::staging"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Swat::swat"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Swat::system_insights"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_TargetRule::targetrule"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Theme::theme"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_UrlRewrite::urlrewrite"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_VersionsCms::delete_revision"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_VersionsCms::hierarchy"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_VersionsCms::hierarchy_widget_chooser"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_VersionsCms::publish_revision"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_VersionsCms::save_revision"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "Magento_Widget::widget_instance"
+                },
+                {
+                    "role": "Marketing",
+                    "resource_id": "PayPal_Braintree::settlement_report"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_AdvancedCheckout::magento_advancedcheckout"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_AdvancedCheckout::update"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_AdvancedCheckout::view"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Backend::admin"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Backend::stores"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Backend::stores_attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Backend::stores_other_settings"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Cart::cart"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Cart::manage"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::attributes_attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::catalog"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::catalog_inventory"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::categories"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::edit_category_design"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::edit_product_design"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::products"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::sets"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Catalog::update_attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CatalogPermissions::catalog_magento_catalogpermissions"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CurrencySymbol::currency_rates"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CurrencySymbol::symbols"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CurrencySymbol::system_currency"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CustomerCustomAttributes::attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CustomerCustomAttributes::customer_address_attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_CustomerCustomAttributes::customer_attributes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_GiftRegistry::customer_magento_giftregistry"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_GiftWrapping::magento_giftwrapping"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::inventory"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::source"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::source_edit"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::stock"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::stock_delete"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::stock_edit"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventoryApi::stock_source_link"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_InventorySalesApi::stock"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_NegotiableQuote::decline"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_NegotiableQuote::print"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_NegotiableQuote::save_as_draft"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_NegotiableQuote::send"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_NegotiableQuote::view_quotes"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::actions_manage"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::authorization"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::billing_agreement"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::billing_agreement_actions"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::billing_agreement_actions_view"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Paypal::use"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_PricePermissions::edit_product_price"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_PricePermissions::edit_product_status"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_PricePermissions::read_product_price"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Review::ratings"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Reward::rates"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Reward::reward_spend"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Rma::magento_rma"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Rma::rma_attribute"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::actions"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::actions_edit"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::actions_view"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::cancel"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::capture"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::comment"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::create"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::creditmemo"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::email"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::emails"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::hold"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::invoice"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::reorder"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::review_payment"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::sales"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::sales_creditmemo"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::sales_invoice"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::sales_operation"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::sales_order"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::ship"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::shipment"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::transactions"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::transactions_fetch"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Sales::unhold"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::add"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::archive"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::creditmemos"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::invoices"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::orders"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::remove"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SalesArchive::shipments"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SharedCatalog::list"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_SharedCatalog::manage"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Swatches::iframe"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "Magento_Tax::manage_tax"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "ParadoxLabs_Subscriptions::subscriptions"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "resource_id": "ParadoxLabs_Subscriptions::subscriptions_manage"
+                }
+            ]
+        }
+    }
+}

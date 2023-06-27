@@ -1,0 +1,71 @@
+{
+    "data": {
+        "msiSource": {
+            "items": [
+                {
+                    "city": "San Francisco",
+                    "contact_name": "John McClane",
+                    "country_id": "US",
+                    "description": null,
+                    "email": "drhodes@thelumastory.com",
+                    "enabled": 1,
+                    "fax": null,
+                    "frontend_description": null,
+                    "frontend_name": "US Warehouse",
+                    "is_pickup_location_active": 1,
+                    "latitude": "37.768139",
+                    "longitude": "-122.399597",
+                    "name": "San Francisco Market Street Warehouse",
+                    "phone": "555-555-5555",
+                    "postcode": "94107",
+                    "region_id": 12,
+                    "source_code": "us_warehouse",
+                    "street": "100 Hooper Street",
+                    "use_default_carrier_config": 1
+                },
+                {
+                    "city": "San Francisco",
+                    "contact_name": "Harry Styles",
+                    "country_id": "US",
+                    "description": null,
+                    "email": "harry@styles.com",
+                    "enabled": 1,
+                    "fax": null,
+                    "frontend_description": null,
+                    "frontend_name": "San Francisco Cafe",
+                    "is_pickup_location_active": 1,
+                    "latitude": "37.771201",
+                    "longitude": "-122.40182",
+                    "name": "San Francisco Cafe",
+                    "phone": "7149161511",
+                    "postcode": "94103",
+                    "region_id": 12,
+                    "source_code": "sfcafe",
+                    "street": "601 Townsend Street",
+                    "use_default_carrier_config": 1
+                },
+                {
+                    "city": "New York",
+                    "contact_name": "Holly Gennaro",
+                    "country_id": "US",
+                    "description": null,
+                    "email": "jsmith@thelumastory.com",
+                    "enabled": 1,
+                    "fax": null,
+                    "frontend_description": null,
+                    "frontend_name": "NYC Store",
+                    "is_pickup_location_active": 1,
+                    "latitude": "40.75273",
+                    "longitude": "-73.979418",
+                    "name": "NYC Store",
+                    "phone": "555-555-5555",
+                    "postcode": "10017",
+                    "region_id": 43,
+                    "source_code": "us_store",
+                    "street": "89 E 42nd St",
+                    "use_default_carrier_config": 1
+                }
+            ]
+        }
+    }
+}

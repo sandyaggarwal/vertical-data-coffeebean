@@ -1,0 +1,17 @@
+{
+    "name": "magentoese/vertical-data-coffeebean",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+      "MIT"
+    ],
+    "autoload": {
+      "psr-4": {
+        "MagentoEse\\VerticalDataCoffeeBean\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }

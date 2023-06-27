@@ -1,0 +1,122 @@
+{
+    "data": {
+        "customAttributeMetadata": {
+            "items": [
+                {
+                    "attribute_code": "air",
+                    "store_view_code": "selectocoffeebean",
+                    "frontend_input": "multiselect",
+                    "attribute_options": [
+                        {
+                            "label": "Air Conditioners"
+                        },
+                        {
+                            "label": "Environmental Coolers"
+                        },
+                        {
+                            "label": "Humidifiers"
+                        },
+                        {
+                            "label": "Purifiers"
+                        },
+                        {
+                            "label": "Heaters"
+                        }
+                    ],
+                    "admin_properties": {
+                        "is_visible": 1,
+                        "frontend_label": "What are you looking for today?",
+                        "is_filterable_in_grid": 0,
+                        "is_used_in_grid": 0,
+                        "is_visible_in_grid": 0,
+                        "is_required": 0,
+                        "is_used_for_customer_segment": 0,
+                        "sort_order": 0,
+                        "used_in_forms": "adminhtml_checkout,adminhtml_customer,customer_account_create,customer_account_edit"
+                    }
+                },
+                {
+                    "attribute_code": "stripe_customer_id",
+                    "store_view_code": "selectocoffeebean",
+                    "frontend_input": "text",
+                    "attribute_options": [],
+                    "admin_properties": {
+                        "is_visible": 0,
+                        "frontend_label": "Stripe Customer ID",
+                        "is_filterable_in_grid": 0,
+                        "is_used_in_grid": 0,
+                        "is_visible_in_grid": 0,
+                        "is_required": 0,
+                        "is_used_for_customer_segment": 0,
+                        "sort_order": 70,
+                        "used_in_forms": ""
+                    }
+                },
+                {
+                    "attribute_code": "authnetcim_profile_id",
+                    "store_view_code": "selectocoffeebean",
+                    "frontend_input": "text",
+                    "attribute_options": [],
+                    "admin_properties": {
+                        "is_visible": 0,
+                        "frontend_label": "Authorize.Net CIM: Profile ID",
+                        "is_filterable_in_grid": 0,
+                        "is_used_in_grid": 0,
+                        "is_visible_in_grid": 0,
+                        "is_required": 0,
+                        "is_used_for_customer_segment": 0,
+                        "sort_order": 70,
+                        "used_in_forms": ""
+                    }
+                },
+                {
+                    "attribute_code": "authnetcim_profile_version",
+                    "store_view_code": "selectocoffeebean",
+                    "frontend_input": "text",
+                    "attribute_options": [],
+                    "admin_properties": {
+                        "is_visible": 0,
+                        "frontend_label": "Authorize.Net CIM: Profile version (for updating legacy data)",
+                        "is_filterable_in_grid": 0,
+                        "is_used_in_grid": 0,
+                        "is_visible_in_grid": 0,
+                        "is_required": 0,
+                        "is_used_for_customer_segment": 0,
+                        "sort_order": 71,
+                        "used_in_forms": ""
+                    }
+                },
+                {
+                    "attribute_code": "preferred_activities",
+                    "store_view_code": "selectocoffeebean",
+                    "frontend_input": "multiselect",
+                    "attribute_options": [
+                        {
+                            "label": "Crossfit"
+                        },
+                        {
+                            "label": "Pilates"
+                        },
+                        {
+                            "label": "Running"
+                        },
+                        {
+                            "label": "Yoga"
+                        }
+                    ],
+                    "admin_properties": {
+                        "is_visible": 0,
+                        "frontend_label": "Preferred Activities",
+                        "is_filterable_in_grid": 1,
+                        "is_used_in_grid": 1,
+                        "is_visible_in_grid": 0,
+                        "is_required": 0,
+                        "is_used_for_customer_segment": 1,
+                        "sort_order": 100,
+                        "used_in_forms": "adminhtml_checkout,adminhtml_customer,customer_account_create,customer_account_edit"
+                    }
+                }
+            ]
+        }
+    }
+}

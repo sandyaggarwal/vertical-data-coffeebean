@@ -1,0 +1,22 @@
+{
+    "data": {
+        "widgets": {
+            "items": [
+                {
+                    "block_reference": "page.top",
+                    "entities": "",
+                    "instance_type": "Magento\\Banner\\Block\\Widget\\Banner",
+                    "layout_handle": "customer_account_index",
+                    "page_for": "all",
+                    "page_group": "pages",
+                    "page_template": "widget\/block.phtml",
+                    "sort_order": 0,
+                    "store_view_code": "admin",
+                    "theme": "Magento\/luma",
+                    "title": "Account Page Widget",
+                    "widget_parameters": "{\"display_mode\":\"fixed\",\"types\":[\"\"],\"rotate\":\"\",\"banner_ids\":\"{{dynamicblock name=\"Selecto VIP Block\"}}\",\"unique_id\":\"374d1d51d7b0c86d61dc511694091aee603d2c5da158e99f25e223a8bc616e12\",\"banner_uids\":\"\"}"
+                }
+            ]
+        }
+    }
+}

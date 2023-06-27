@@ -1,0 +1,16 @@
+{
+    "data": {
+        "adminUsers": {
+            "items": [
+                {
+                    "email": "jhanki20@cmc.edu",
+                    "firstname": "Jenifer",
+                    "lastname": "Hanki",
+                    "password": "Password1",
+                    "role": "Marketing",
+                    "username": "jhanki"
+                }
+            ]
+        }
+    }
+}

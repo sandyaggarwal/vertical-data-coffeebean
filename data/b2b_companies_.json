@@ -1,0 +1,2563 @@
+{
+    "data": {
+        "companies": {
+            "items": [
+                {
+                    "site_code": "base",
+                    "legal_name": null,
+                    "company_name": "Jen's Wholesale Beanery",
+                    "company_email": "hanki@adobe.com",
+                    "address": {
+                        "city": "San Francisco",
+                        "country_id": "US",
+                        "postcode": "94103",
+                        "region": {
+                            "region": "CA"
+                        },
+                        "street": [
+                            "601 Townsend"
+                        ],
+                        "telephone": "4153409998"
+                    },
+                    "reseller_id": null,
+                    "vat_tax_id": null,
+                    "company_admin": {
+                        "email": "hanki@adobe.com"
+                    },
+                    "approval_rules": {
+                        "items": []
+                    },
+                    "shared_catalog": {
+                        "name": null,
+                        "description": null,
+                        "type": null,
+                        "categories": null
+                    },
+                    "credit_export": {
+                        "credit_limit": {
+                            "value": 10000
+                        }
+                    },
+                    "sales_representative": {
+                        "firstname": "Jenifer",
+                        "lastname": "Hanki",
+                        "email": "jhanki20@cmc.edu",
+                        "username": "jhanki",
+                        "role": "Marketing",
+                        "password": "Password1"
+                    },
+                    "users_export": {
+                        "items": [
+                            {
+                                "firstname": "Jay",
+                                "lastname": "Hanks",
+                                "email": "hanki@adobe.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": null,
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            }
+                        ]
+                    },
+                    "roles_export": {
+                        "items": [
+                            {
+                                "name": "Default User",
+                                "permissions": [
+                                    {
+                                        "id": "Magento_Company::index",
+                                        "children": [
+                                            {
+                                                "id": "Magento_Sales::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Sales::place_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Sales::view_orders"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_NegotiableQuote::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_NegotiableQuote::view_quotes"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_PurchaseOrder::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::view_purchase_orders"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::view_approval_rules"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::view",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::view_account"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::view_address"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::contacts"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::payment_information"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::shipping_information"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::user_management",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::users_view"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "site_code": "base",
+                    "legal_name": null,
+                    "company_name": "Adobe",
+                    "company_email": "jhanks127945400@gmail.com",
+                    "address": {
+                        "city": "Huntington Beach",
+                        "country_id": "US",
+                        "postcode": "92648",
+                        "region": {
+                            "region": "CA"
+                        },
+                        "street": [
+                            "6852 Livingston Drive"
+                        ],
+                        "telephone": "7149161514"
+                    },
+                    "reseller_id": null,
+                    "vat_tax_id": null,
+                    "company_admin": {
+                        "email": "jenifer.hanki@cmc.edu"
+                    },
+                    "approval_rules": {
+                        "items": []
+                    },
+                    "shared_catalog": {
+                        "name": "Dunder Mifflin",
+                        "description": null,
+                        "type": "Public",
+                        "categories": [
+                            {
+                                "path": ""
+                            },
+                            {
+                                "path": "BAPI Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Bags"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Fitness Equipment"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Watches"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Training/Video Download"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Jackets"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Hoodies & Sweatshirts"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Tees"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Bras & Tanks"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms/Pants"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms/Shorts"
+                            },
+                            {
+                                "path": "BAPI Catalog/Gift Cards"
+                            },
+                            {
+                                "path": "BAPI Catalog/Air Quality"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wireless"
+                            },
+                            {
+                                "path": "Venia Catalog"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops/Blouses & Shirts"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops/Sweaters"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms/Pants & Shorts"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms/Skirts"
+                            },
+                            {
+                                "path": "Venia Catalog/Dresses"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Belts"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Jewelry"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Scarves"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Timeless Sophistication"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Retire your LBD"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Carefree Days"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Perfectly Beachy"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Minimalist Sensibility"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Outside the Lines"
+                            },
+                            {
+                                "path": "Custom Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Bags/Backpacks"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/Espresso"
+                            },
+                            {
+                                "path": "BAPI HVAC Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/Decaf"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Swag and Merch"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Beans Wholesale"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/All Coffee"
+                            },
+                            {
+                                "path": "BAPI Catalog/Temperature"
+                            },
+                            {
+                                "path": "BAPI Catalog/Pressure"
+                            },
+                            {
+                                "path": "Anaïs Clément"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Face"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Body"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Cleansers"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Lotions and Creams"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Eyes"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Face"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Lips"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Cheek"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Nails"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Shampoos"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Conditioners"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Styling"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Nutritive Blends"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Nourishments"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Supplements"
+                            },
+                            {
+                                "path": "Anaïs Clément/HemPlus"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gifts for Her"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gifts for Him"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gift Cards"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Samples"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Travel Size"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Skin"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Hair"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Spa"
+                            },
+                            {
+                                "path": "Anaïs Clément/Locations"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Humidity Sensors"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Test Instruments"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive"
+                            },
+                            {
+                                "path": "Perfect Aire Category"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Room Air Conditioners"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Environmental Cooling"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Dehumidifiers"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Purification"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Heaters"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Parts & Accessories"
+                            },
+                            {
+                                "path": "Coffee Products"
+                            },
+                            {
+                                "path": "Emerson Electric"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Thermostat Manager"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners"
+                            },
+                            {
+                                "path": "Emerson Electric/For Professionals"
+                            },
+                            {
+                                "path": "Emerson Electric/Support"
+                            },
+                            {
+                                "path": "Emerson Electric/Installation"
+                            },
+                            {
+                                "path": "Sticker Giant"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Die Cut Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Kiss Cut Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Clear Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Glossy Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Matte Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Clear Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Recycled Products"
+                            },
+                            {
+                                "path": "Sticker Giant/Stock Shapes"
+                            },
+                            {
+                                "path": "Sticker Giant/Industries and Uses"
+                            },
+                            {
+                                "path": "ASHA"
+                            },
+                            {
+                                "path": "ASHA/Certification"
+                            },
+                            {
+                                "path": "ASHA/Publications"
+                            },
+                            {
+                                "path": "ASHA/Continuing Education Courses"
+                            },
+                            {
+                                "path": "ASHA/Practice Management"
+                            },
+                            {
+                                "path": "ASHA/Research"
+                            },
+                            {
+                                "path": "ASHA/ASHA Learning Pass"
+                            },
+                            {
+                                "path": "TK Elevator"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Transformers-Inductors-Reactors"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Bearings"
+                            },
+                            {
+                                "path": "TK Elevator/Products"
+                            },
+                            {
+                                "path": "TK Elevator/Sales"
+                            },
+                            {
+                                "path": "TK Elevator/Technical Support"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Controllers"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Motors"
+                            },
+                            {
+                                "path": "TK Elevator/Products/US Elevator"
+                            },
+                            {
+                                "path": "TK Elevator/Wholesale Category"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Products and Services"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Dealer Locator"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Magazine"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Company"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Contact"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/EMPLOYEE CATALOG"
+                            },
+                            {
+                                "path": "Singer Sewing"
+                            },
+                            {
+                                "path": "Sportsman's Guide"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Ammo"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Shooting"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Guns"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Hunting"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Clothing"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Camping"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Deals"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Buyer's Club"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Blog"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Brand"
+                            },
+                            {
+                                "path": "Singer Sewing/Accessories"
+                            },
+                            {
+                                "path": "Singer Sewing/Fabric Care"
+                            },
+                            {
+                                "path": "Singer Sewing/Sewing Machines"
+                            },
+                            {
+                                "path": "Singer Sewing/Inspiration"
+                            },
+                            {
+                                "path": "Selecto Coffee"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/All Coffee"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/New Arrivals"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/Best Sellers"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Single Origin"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Blend"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Seasonal"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Espresso"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Decaf"
+                            },
+                            {
+                                "path": "Selecto Coffee/Light Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Medium Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Dark Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Methods"
+                            }
+                        ]
+                    },
+                    "credit_export": {
+                        "credit_limit": {
+                            "value": 0
+                        }
+                    },
+                    "sales_representative": {
+                        "firstname": "Admin",
+                        "lastname": "Username",
+                        "email": "kbentrup@magento.com",
+                        "username": "admin",
+                        "role": "Administrators",
+                        "password": "Password1"
+                    },
+                    "users_export": {
+                        "items": [
+                            {
+                                "firstname": "Jenifer",
+                                "lastname": "Hanki",
+                                "email": "jenifer.hanki@cmc.edu",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": null,
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            }
+                        ]
+                    },
+                    "roles_export": {
+                        "items": [
+                            {
+                                "name": "Default User",
+                                "permissions": [
+                                    {
+                                        "id": "Magento_Company::index",
+                                        "children": [
+                                            {
+                                                "id": "Magento_Sales::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Sales::place_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Sales::view_orders"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_NegotiableQuote::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_NegotiableQuote::view_quotes"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_PurchaseOrder::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::view_purchase_orders"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::view_approval_rules"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::view",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::view_account"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::view_address"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::contacts"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::payment_information"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::shipping_information"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::user_management",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::users_view"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "site_code": "base",
+                    "legal_name": null,
+                    "company_name": "Jen's Beans",
+                    "company_email": "jhanki20@cmc.edu",
+                    "address": {
+                        "city": "Huntington Beach",
+                        "country_id": "US",
+                        "postcode": "92648",
+                        "region": {
+                            "region": "CA"
+                        },
+                        "street": [
+                            "601 Townsend St"
+                        ],
+                        "telephone": "7149161514"
+                    },
+                    "reseller_id": null,
+                    "vat_tax_id": null,
+                    "company_admin": {
+                        "email": "jhanki20@cmc.edu"
+                    },
+                    "approval_rules": {
+                        "items": []
+                    },
+                    "shared_catalog": {
+                        "name": null,
+                        "description": null,
+                        "type": null,
+                        "categories": null
+                    },
+                    "credit_export": {
+                        "credit_limit": {
+                            "value": 1000
+                        }
+                    },
+                    "sales_representative": {
+                        "firstname": "Admin",
+                        "lastname": "Username",
+                        "email": "kbentrup@magento.com",
+                        "username": "admin",
+                        "role": "Administrators",
+                        "password": "Password1"
+                    },
+                    "users_export": {
+                        "items": [
+                            {
+                                "firstname": "Jenifer",
+                                "lastname": "Hanki",
+                                "email": "jhanki20@cmc.edu",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": null,
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            }
+                        ]
+                    },
+                    "roles_export": {
+                        "items": [
+                            {
+                                "name": "Default User",
+                                "permissions": [
+                                    {
+                                        "id": "Magento_Company::index",
+                                        "children": [
+                                            {
+                                                "id": "Magento_Sales::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Sales::place_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Sales::view_orders"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_NegotiableQuote::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_NegotiableQuote::view_quotes"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_PurchaseOrder::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::view_purchase_orders"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::view_approval_rules"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::view",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::view_account"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::view_address"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::contacts"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::payment_information"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::shipping_information"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::user_management",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::users_view"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "site_code": "base",
+                    "legal_name": null,
+                    "company_name": "Dunder Mifflin",
+                    "company_email": "hankijen@gmail.com",
+                    "address": {
+                        "city": "SF",
+                        "country_id": "US",
+                        "postcode": "94103",
+                        "region": {
+                            "region": "CA"
+                        },
+                        "street": [
+                            "601 Townsend St"
+                        ],
+                        "telephone": "4153568888"
+                    },
+                    "reseller_id": null,
+                    "vat_tax_id": null,
+                    "company_admin": {
+                        "email": "hankijen1@gmail.com"
+                    },
+                    "approval_rules": {
+                        "items": [
+                            {
+                                "name": "Over $10000",
+                                "description": null,
+                                "is_active": "1",
+                                "apply_to_roles": "",
+                                "conditions_serialized": "{\"type\":\"Magento\\\\PurchaseOrderRule\\\\Model\\\\Rule\\\\Condition\\\\Combine\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\PurchaseOrderRule\\\\Model\\\\Rule\\\\Condition\\\\Address\\\\Interceptor\",\"attribute\":\"grand_total\",\"operator\":\">\",\"value\":\"10000\",\"is_value_processed\":false,\"currency_code\":\"USD\"}]}",
+                                "approval_from": "",
+                                "requires_admin_approval": "",
+                                "requires_manager_approval": "1",
+                                "applies_to_all": "1",
+                                "created_by": "hankijen1@gmail.com"
+                            }
+                        ]
+                    },
+                    "shared_catalog": {
+                        "name": "Dunder Mifflin",
+                        "description": null,
+                        "type": "Public",
+                        "categories": [
+                            {
+                                "path": ""
+                            },
+                            {
+                                "path": "BAPI Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Bags"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Fitness Equipment"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Watches"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Training/Video Download"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Jackets"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Hoodies & Sweatshirts"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Tees"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Tops/Bras & Tanks"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms/Pants"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Women/Bottoms/Shorts"
+                            },
+                            {
+                                "path": "BAPI Catalog/Gift Cards"
+                            },
+                            {
+                                "path": "BAPI Catalog/Air Quality"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wireless"
+                            },
+                            {
+                                "path": "Venia Catalog"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops/Blouses & Shirts"
+                            },
+                            {
+                                "path": "Venia Catalog/Tops/Sweaters"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms/Pants & Shorts"
+                            },
+                            {
+                                "path": "Venia Catalog/Bottoms/Skirts"
+                            },
+                            {
+                                "path": "Venia Catalog/Dresses"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Belts"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Jewelry"
+                            },
+                            {
+                                "path": "Venia Catalog/Accessories/Scarves"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Timeless Sophistication"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Retire your LBD"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Carefree Days"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Perfectly Beachy"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Minimalist Sensibility"
+                            },
+                            {
+                                "path": "Venia Catalog/Shop The Look/Outside the Lines"
+                            },
+                            {
+                                "path": "Custom Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Gear/Bags/Backpacks"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/Espresso"
+                            },
+                            {
+                                "path": "BAPI HVAC Catalog"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/Decaf"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Swag and Merch"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Beans Wholesale"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive/Coffee/All Coffee"
+                            },
+                            {
+                                "path": "BAPI Catalog/Temperature"
+                            },
+                            {
+                                "path": "BAPI Catalog/Pressure"
+                            },
+                            {
+                                "path": "Anaïs Clément"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Face"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Body"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Cleansers"
+                            },
+                            {
+                                "path": "Anaïs Clément/Skincare/Lotions and Creams"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Eyes"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Face"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Lips"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Cheek"
+                            },
+                            {
+                                "path": "Anaïs Clément/Beauty/Nails"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Shampoos"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Conditioners"
+                            },
+                            {
+                                "path": "Anaïs Clément/Hair Care/Styling"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Nutritive Blends"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Nourishments"
+                            },
+                            {
+                                "path": "Anaïs Clément/Nutrients / Supplements/Supplements"
+                            },
+                            {
+                                "path": "Anaïs Clément/HemPlus"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gifts for Her"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gifts for Him"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Gift Cards"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Samples"
+                            },
+                            {
+                                "path": "Anaïs Clément/Gifts / Sets/Travel Size"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Skin"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Hair"
+                            },
+                            {
+                                "path": "Anaïs Clément/Services/Spa"
+                            },
+                            {
+                                "path": "Anaïs Clément/Locations"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Humidity Sensors"
+                            },
+                            {
+                                "path": "BAPI Catalog/Wholesale Orders/Test Instruments"
+                            },
+                            {
+                                "path": "BAPI Catalog/Archive"
+                            },
+                            {
+                                "path": "Perfect Aire Category"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Room Air Conditioners"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Environmental Cooling"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Dehumidifiers"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Purification"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Heaters"
+                            },
+                            {
+                                "path": "Perfect Aire Category/Parts & Accessories"
+                            },
+                            {
+                                "path": "Coffee Products"
+                            },
+                            {
+                                "path": "Emerson Electric"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners/Sensi Thermostat Manager"
+                            },
+                            {
+                                "path": "Emerson Electric/For Homeowners"
+                            },
+                            {
+                                "path": "Emerson Electric/For Professionals"
+                            },
+                            {
+                                "path": "Emerson Electric/Support"
+                            },
+                            {
+                                "path": "Emerson Electric/Installation"
+                            },
+                            {
+                                "path": "Sticker Giant"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Die Cut Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Kiss Cut Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Stickers/Clear Stickers"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Glossy Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Matte Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Custom Labels/Clear Labels"
+                            },
+                            {
+                                "path": "Sticker Giant/Recycled Products"
+                            },
+                            {
+                                "path": "Sticker Giant/Stock Shapes"
+                            },
+                            {
+                                "path": "Sticker Giant/Industries and Uses"
+                            },
+                            {
+                                "path": "ASHA"
+                            },
+                            {
+                                "path": "ASHA/Certification"
+                            },
+                            {
+                                "path": "ASHA/Publications"
+                            },
+                            {
+                                "path": "ASHA/Continuing Education Courses"
+                            },
+                            {
+                                "path": "ASHA/Practice Management"
+                            },
+                            {
+                                "path": "ASHA/Research"
+                            },
+                            {
+                                "path": "ASHA/ASHA Learning Pass"
+                            },
+                            {
+                                "path": "TK Elevator"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Transformers-Inductors-Reactors"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Bearings"
+                            },
+                            {
+                                "path": "TK Elevator/Products"
+                            },
+                            {
+                                "path": "TK Elevator/Sales"
+                            },
+                            {
+                                "path": "TK Elevator/Technical Support"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Controllers"
+                            },
+                            {
+                                "path": "TK Elevator/Products/Motors"
+                            },
+                            {
+                                "path": "TK Elevator/Products/US Elevator"
+                            },
+                            {
+                                "path": "TK Elevator/Wholesale Category"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Products and Services"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Dealer Locator"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Magazine"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Company"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Contact"
+                            },
+                            {
+                                "path": "THYSSENKRUPP BILSTEIN OF AMERICA/EMPLOYEE CATALOG"
+                            },
+                            {
+                                "path": "Singer Sewing"
+                            },
+                            {
+                                "path": "Sportsman's Guide"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Ammo"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Shooting"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Guns"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Hunting"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Clothing"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Products/Camping"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Deals"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Buyer's Club"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Blog"
+                            },
+                            {
+                                "path": "Sportsman's Guide/Brand"
+                            },
+                            {
+                                "path": "Singer Sewing/Accessories"
+                            },
+                            {
+                                "path": "Singer Sewing/Fabric Care"
+                            },
+                            {
+                                "path": "Singer Sewing/Sewing Machines"
+                            },
+                            {
+                                "path": "Singer Sewing/Inspiration"
+                            },
+                            {
+                                "path": "Selecto Coffee"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/All Coffee"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/New Arrivals"
+                            },
+                            {
+                                "path": "Selecto Coffee/Featured/Best Sellers"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Single Origin"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Blend"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Seasonal"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Espresso"
+                            },
+                            {
+                                "path": "Selecto Coffee/Types/Decaf"
+                            },
+                            {
+                                "path": "Selecto Coffee/Light Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Medium Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Dark Roast"
+                            },
+                            {
+                                "path": "Selecto Coffee/Methods"
+                            }
+                        ]
+                    },
+                    "credit_export": {
+                        "credit_limit": {
+                            "value": 1000000
+                        }
+                    },
+                    "sales_representative": {
+                        "firstname": "Admin",
+                        "lastname": "Username",
+                        "email": "kbentrup@magento.com",
+                        "username": "admin",
+                        "role": "Administrators",
+                        "password": "Password1"
+                    },
+                    "users_export": {
+                        "items": [
+                            {
+                                "firstname": "Jen",
+                                "lastname": "Halpert",
+                                "email": "hankijen@gmail.com",
+                                "password": "Password1",
+                                "add_to_autofill": "Y",
+                                "addresses": [
+                                    {
+                                        "street": [
+                                            "6852 Livingston Drive"
+                                        ],
+                                        "city": "Huntington Beach",
+                                        "region": {
+                                            "region": "California"
+                                        },
+                                        "postcode": "92648",
+                                        "telephone": "7149161514",
+                                        "country_id": "US"
+                                    },
+                                    {
+                                        "street": [
+                                            "601 Townsend St"
+                                        ],
+                                        "city": "San Francisco",
+                                        "region": {
+                                            "region": "California"
+                                        },
+                                        "postcode": "94103",
+                                        "telephone": "7149161513",
+                                        "country_id": "US"
+                                    }
+                                ],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": {
+                                    "name": "Scranton"
+                                },
+                                "requisition_lists_export": {
+                                    "items": [
+                                        {
+                                            "name": "Coffee & Swag",
+                                            "description": null,
+                                            "items": {
+                                                "items": [
+                                                    {
+                                                        "product": {
+                                                            "sku": "Equator-coffee-mug"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "TigerWalkwholesaledarkroast"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "equatorgreytabbeaniecoffeeswag"
+                                                        },
+                                                        "quantity": 50
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "name": "Dunder Mifflin Frequent Purchases",
+                                            "description": "For Quarterly On-Site Event – per request of the Party Planning Committee",
+                                            "items": {
+                                                "items": [
+                                                    {
+                                                        "product": {
+                                                            "sku": "TigerWalkwholesaledarkroast"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "TigerWalkwholesalemediumroast"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "TigerWalkwholesalelight"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "endlesssummerblendcoffee"
+                                                        },
+                                                        "quantity": 50
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "doublecoffee"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "Equator-coffee-mug"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "pockertruckerhatcoffeeswag"
+                                                        },
+                                                        "quantity": 10
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "name": "Quarterly BAPI Order",
+                                            "description": null,
+                                            "items": {
+                                                "items": [
+                                                    {
+                                                        "product": {
+                                                            "sku": "BAPI-StatQuantumHumiditywdisplay-1"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "BL-TEST–WIRELESS TEMPERATURE"
+                                                        },
+                                                        "quantity": 100
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "EZ – DIFFERENTIAL PRESSURE SENSOR FIELD BAPI-Low Range"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "ZPM IN A BAPI-BOX – IP66 OR NEMA 4 RATED"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "BAPI-StatQuantumHumiditywodisplay1"
+                                                        },
+                                                        "quantity": 10
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "BAPI-STAT 4 X-COMBO – ROOM TEMPERATURE AND HUMIDITY SENSOR"
+                                                        },
+                                                        "quantity": 10
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "name": "Monthly BAPI Requisition List",
+                                            "description": null,
+                                            "items": {
+                                                "items": []
+                                            }
+                                        },
+                                        {
+                                            "name": "Monthly HVAC Purchase!",
+                                            "description": null,
+                                            "items": {
+                                                "items": []
+                                            }
+                                        },
+                                        {
+                                            "name": "Sticker Giant Monthly Purchase",
+                                            "description": null,
+                                            "items": {
+                                                "items": []
+                                            }
+                                        },
+                                        {
+                                            "name": "Quarterly TK Elevator Parts List!",
+                                            "description": null,
+                                            "items": {
+                                                "items": []
+                                            }
+                                        },
+                                        {
+                                            "name": "Bilstein Quarterly Purchase!!!",
+                                            "description": null,
+                                            "items": {
+                                                "items": []
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "firstname": "Dave",
+                                "lastname": "Wallace",
+                                "email": "hankijen1@gmail.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [
+                                    {
+                                        "street": [
+                                            "1485 Lomita Dr"
+                                        ],
+                                        "city": "Pasadena",
+                                        "region": {
+                                            "region": "California"
+                                        },
+                                        "postcode": "91106",
+                                        "telephone": "(626) 676-1939",
+                                        "country_id": "US"
+                                    }
+                                ],
+                                "role": null,
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": [
+                                        {
+                                            "name": "Dave's Requisition",
+                                            "description": null,
+                                            "items": {
+                                                "items": [
+                                                    {
+                                                        "product": {
+                                                            "sku": "miirtumblercoffee"
+                                                        },
+                                                        "quantity": 1
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "parksprojectteetancoffeeswagcharcoal"
+                                                        },
+                                                        "quantity": 1
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "coldbrewendlesssummercoffee"
+                                                        },
+                                                        "quantity": 1
+                                                    },
+                                                    {
+                                                        "product": {
+                                                            "sku": "doublecoffee"
+                                                        },
+                                                        "quantity": 1
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "firstname": "Kevin",
+                                "lastname": "Nguyen",
+                                "email": "kevin@nguyen.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": {
+                                    "name": "Nashua Branch"
+                                },
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Karen",
+                                "lastname": "Mulligan",
+                                "email": "karen@karens.net",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Sales Rep"
+                                },
+                                "team": {
+                                    "name": "Nashua Branch"
+                                },
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "BJ",
+                                "lastname": "Schibler",
+                                "email": "bj@bj.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Homer",
+                                "lastname": "Simpson",
+                                "email": "simp@simp.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Sales Rep"
+                                },
+                                "team": {
+                                    "name": "Nashua Branch"
+                                },
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Scranton",
+                                "lastname": "Pennsylvania",
+                                "email": "scranton@dm.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Nashua",
+                                "lastname": "Branch",
+                                "email": "nashua@dm.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": null,
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Jim",
+                                "lastname": "Halpert",
+                                "email": "j@halpert.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": {
+                                    "name": "Nashua Branch"
+                                },
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            },
+                            {
+                                "firstname": "Stanley ",
+                                "lastname": "Hudson",
+                                "email": "s@hudson.com",
+                                "password": "Password1",
+                                "add_to_autofill": "N",
+                                "addresses": [],
+                                "role": {
+                                    "name": "Default User"
+                                },
+                                "team": {
+                                    "name": "Sales"
+                                },
+                                "requisition_lists_export": {
+                                    "items": []
+                                }
+                            }
+                        ]
+                    },
+                    "roles_export": {
+                        "items": [
+                            {
+                                "name": "Default User",
+                                "permissions": [
+                                    {
+                                        "id": "Magento_Company::index",
+                                        "children": [
+                                            {
+                                                "id": "Magento_Sales::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Sales::place_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Sales::view_orders"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_NegotiableQuote::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_NegotiableQuote::view_quotes"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_PurchaseOrder::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::view_purchase_orders"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::autoapprove_purchase_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::super_approve_purchase_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::view_approval_rules"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::view",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::view_account"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::view_address"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::contacts"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::payment_information"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::shipping_information"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::user_management",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::roles_view"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::users_view"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::credit",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::credit_history"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sales Rep",
+                                "permissions": [
+                                    {
+                                        "id": "Magento_Company::index",
+                                        "children": [
+                                            {
+                                                "id": "Magento_Sales::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Sales::place_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Sales::view_orders"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_NegotiableQuote::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_NegotiableQuote::view_quotes"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_PurchaseOrder::all",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::view_purchase_orders"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrder::autoapprove_purchase_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::super_approve_purchase_order"
+                                                    },
+                                                    {
+                                                        "id": "Magento_PurchaseOrderRule::view_approval_rules"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::view",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::view_account"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::view_address"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::contacts"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::payment_information"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::shipping_information"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::user_management",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::roles_view"
+                                                    },
+                                                    {
+                                                        "id": "Magento_Company::users_view"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "Magento_Company::credit",
+                                                "children": [
+                                                    {
+                                                        "id": "Magento_Company::credit_history"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "publicSharedCatalog": {
+            "name": "Dunder Mifflin",
+            "description": null,
+            "type": "Public",
+            "categories": [
+                {
+                    "path": ""
+                },
+                {
+                    "path": "BAPI Catalog"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Gear"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Gear/Bags"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Gear/Fitness Equipment"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Gear/Watches"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Training/Video Download"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Tops"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Bottoms"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Tops/Jackets"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Tops/Hoodies & Sweatshirts"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Tops/Tees"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Tops/Bras & Tanks"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Bottoms/Pants"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Women/Bottoms/Shorts"
+                },
+                {
+                    "path": "BAPI Catalog/Gift Cards"
+                },
+                {
+                    "path": "BAPI Catalog/Air Quality"
+                },
+                {
+                    "path": "BAPI Catalog/Wireless"
+                },
+                {
+                    "path": "Venia Catalog"
+                },
+                {
+                    "path": "Venia Catalog/Tops"
+                },
+                {
+                    "path": "Venia Catalog/Tops/Blouses & Shirts"
+                },
+                {
+                    "path": "Venia Catalog/Tops/Sweaters"
+                },
+                {
+                    "path": "Venia Catalog/Bottoms"
+                },
+                {
+                    "path": "Venia Catalog/Bottoms/Pants & Shorts"
+                },
+                {
+                    "path": "Venia Catalog/Bottoms/Skirts"
+                },
+                {
+                    "path": "Venia Catalog/Dresses"
+                },
+                {
+                    "path": "Venia Catalog/Accessories"
+                },
+                {
+                    "path": "Venia Catalog/Accessories/Belts"
+                },
+                {
+                    "path": "Venia Catalog/Accessories/Jewelry"
+                },
+                {
+                    "path": "Venia Catalog/Accessories/Scarves"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Timeless Sophistication"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Retire your LBD"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Carefree Days"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Perfectly Beachy"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Minimalist Sensibility"
+                },
+                {
+                    "path": "Venia Catalog/Shop The Look/Outside the Lines"
+                },
+                {
+                    "path": "Custom Catalog"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Gear/Bags/Backpacks"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Coffee"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Coffee/Espresso"
+                },
+                {
+                    "path": "BAPI HVAC Catalog"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Coffee/Decaf"
+                },
+                {
+                    "path": "BAPI Catalog/Wholesale Orders"
+                },
+                {
+                    "path": "BAPI Catalog/Wholesale Orders/Swag and Merch"
+                },
+                {
+                    "path": "BAPI Catalog/Wholesale Orders/Beans Wholesale"
+                },
+                {
+                    "path": "BAPI Catalog/Archive/Coffee/All Coffee"
+                },
+                {
+                    "path": "BAPI Catalog/Temperature"
+                },
+                {
+                    "path": "BAPI Catalog/Pressure"
+                },
+                {
+                    "path": "Anaïs Clément"
+                },
+                {
+                    "path": "Anaïs Clément/Skincare"
+                },
+                {
+                    "path": "Anaïs Clément/Skincare/Face"
+                },
+                {
+                    "path": "Anaïs Clément/Skincare/Body"
+                },
+                {
+                    "path": "Anaïs Clément/Skincare/Cleansers"
+                },
+                {
+                    "path": "Anaïs Clément/Skincare/Lotions and Creams"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty/Eyes"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty/Face"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty/Lips"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty/Cheek"
+                },
+                {
+                    "path": "Anaïs Clément/Beauty/Nails"
+                },
+                {
+                    "path": "Anaïs Clément/Hair Care"
+                },
+                {
+                    "path": "Anaïs Clément/Hair Care/Shampoos"
+                },
+                {
+                    "path": "Anaïs Clément/Hair Care/Conditioners"
+                },
+                {
+                    "path": "Anaïs Clément/Hair Care/Styling"
+                },
+                {
+                    "path": "Anaïs Clément/Nutrients / Supplements"
+                },
+                {
+                    "path": "Anaïs Clément/Nutrients / Supplements/Nutritive Blends"
+                },
+                {
+                    "path": "Anaïs Clément/Nutrients / Supplements/Nourishments"
+                },
+                {
+                    "path": "Anaïs Clément/Nutrients / Supplements/Supplements"
+                },
+                {
+                    "path": "Anaïs Clément/HemPlus"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets/Gifts for Her"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets/Gifts for Him"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets/Gift Cards"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets/Samples"
+                },
+                {
+                    "path": "Anaïs Clément/Gifts / Sets/Travel Size"
+                },
+                {
+                    "path": "Anaïs Clément/Services"
+                },
+                {
+                    "path": "Anaïs Clément/Services/Skin"
+                },
+                {
+                    "path": "Anaïs Clément/Services/Hair"
+                },
+                {
+                    "path": "Anaïs Clément/Services/Spa"
+                },
+                {
+                    "path": "Anaïs Clément/Locations"
+                },
+                {
+                    "path": "BAPI Catalog/Wholesale Orders/Humidity Sensors"
+                },
+                {
+                    "path": "BAPI Catalog/Wholesale Orders/Test Instruments"
+                },
+                {
+                    "path": "BAPI Catalog/Archive"
+                },
+                {
+                    "path": "Perfect Aire Category"
+                },
+                {
+                    "path": "Perfect Aire Category/Room Air Conditioners"
+                },
+                {
+                    "path": "Perfect Aire Category/Environmental Cooling"
+                },
+                {
+                    "path": "Perfect Aire Category/Dehumidifiers"
+                },
+                {
+                    "path": "Perfect Aire Category/Purification"
+                },
+                {
+                    "path": "Perfect Aire Category/Heaters"
+                },
+                {
+                    "path": "Perfect Aire Category/Parts & Accessories"
+                },
+                {
+                    "path": "Coffee Products"
+                },
+                {
+                    "path": "Emerson Electric"
+                },
+                {
+                    "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                },
+                {
+                    "path": "Emerson Electric/For Homeowners/Sensi Smart Thermostat"
+                },
+                {
+                    "path": "Emerson Electric/For Homeowners/Sensi Thermostat Manager"
+                },
+                {
+                    "path": "Emerson Electric/For Homeowners"
+                },
+                {
+                    "path": "Emerson Electric/For Professionals"
+                },
+                {
+                    "path": "Emerson Electric/Support"
+                },
+                {
+                    "path": "Emerson Electric/Installation"
+                },
+                {
+                    "path": "Sticker Giant"
+                },
+                {
+                    "path": "Sticker Giant/Custom Stickers"
+                },
+                {
+                    "path": "Sticker Giant/Custom Stickers/Die Cut Stickers"
+                },
+                {
+                    "path": "Sticker Giant/Custom Stickers/Kiss Cut Stickers"
+                },
+                {
+                    "path": "Sticker Giant/Custom Stickers/Clear Stickers"
+                },
+                {
+                    "path": "Sticker Giant/Custom Labels"
+                },
+                {
+                    "path": "Sticker Giant/Custom Labels/Glossy Labels"
+                },
+                {
+                    "path": "Sticker Giant/Custom Labels/Matte Labels"
+                },
+                {
+                    "path": "Sticker Giant/Custom Labels/Clear Labels"
+                },
+                {
+                    "path": "Sticker Giant/Recycled Products"
+                },
+                {
+                    "path": "Sticker Giant/Stock Shapes"
+                },
+                {
+                    "path": "Sticker Giant/Industries and Uses"
+                },
+                {
+                    "path": "ASHA"
+                },
+                {
+                    "path": "ASHA/Certification"
+                },
+                {
+                    "path": "ASHA/Publications"
+                },
+                {
+                    "path": "ASHA/Continuing Education Courses"
+                },
+                {
+                    "path": "ASHA/Practice Management"
+                },
+                {
+                    "path": "ASHA/Research"
+                },
+                {
+                    "path": "ASHA/ASHA Learning Pass"
+                },
+                {
+                    "path": "TK Elevator"
+                },
+                {
+                    "path": "TK Elevator/Products/Transformers-Inductors-Reactors"
+                },
+                {
+                    "path": "TK Elevator/Products/Bearings"
+                },
+                {
+                    "path": "TK Elevator/Products"
+                },
+                {
+                    "path": "TK Elevator/Sales"
+                },
+                {
+                    "path": "TK Elevator/Technical Support"
+                },
+                {
+                    "path": "TK Elevator/Products/Controllers"
+                },
+                {
+                    "path": "TK Elevator/Products/Motors"
+                },
+                {
+                    "path": "TK Elevator/Products/US Elevator"
+                },
+                {
+                    "path": "TK Elevator/Wholesale Category"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Products and Services"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Dealer Locator"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Magazine"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Company"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/Contact"
+                },
+                {
+                    "path": "THYSSENKRUPP BILSTEIN OF AMERICA/EMPLOYEE CATALOG"
+                },
+                {
+                    "path": "Singer Sewing"
+                },
+                {
+                    "path": "Sportsman's Guide"
+                },
+                {
+                    "path": "Sportsman's Guide/Products"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Ammo"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Shooting"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Guns"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Hunting"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Clothing"
+                },
+                {
+                    "path": "Sportsman's Guide/Products/Camping"
+                },
+                {
+                    "path": "Sportsman's Guide/Deals"
+                },
+                {
+                    "path": "Sportsman's Guide/Buyer's Club"
+                },
+                {
+                    "path": "Sportsman's Guide/Blog"
+                },
+                {
+                    "path": "Sportsman's Guide/Brand"
+                },
+                {
+                    "path": "Singer Sewing/Accessories"
+                },
+                {
+                    "path": "Singer Sewing/Fabric Care"
+                },
+                {
+                    "path": "Singer Sewing/Sewing Machines"
+                },
+                {
+                    "path": "Singer Sewing/Inspiration"
+                },
+                {
+                    "path": "Selecto Coffee"
+                },
+                {
+                    "path": "Selecto Coffee/Featured"
+                },
+                {
+                    "path": "Selecto Coffee/Featured/All Coffee"
+                },
+                {
+                    "path": "Selecto Coffee/Featured/New Arrivals"
+                },
+                {
+                    "path": "Selecto Coffee/Featured/Best Sellers"
+                },
+                {
+                    "path": "Selecto Coffee/Types"
+                },
+                {
+                    "path": "Selecto Coffee/Types/Single Origin"
+                },
+                {
+                    "path": "Selecto Coffee/Types/Blend"
+                },
+                {
+                    "path": "Selecto Coffee/Types/Seasonal"
+                },
+                {
+                    "path": "Selecto Coffee/Types/Espresso"
+                },
+                {
+                    "path": "Selecto Coffee/Types/Decaf"
+                },
+                {
+                    "path": "Selecto Coffee/Light Roast"
+                },
+                {
+                    "path": "Selecto Coffee/Medium Roast"
+                },
+                {
+                    "path": "Selecto Coffee/Dark Roast"
+                },
+                {
+                    "path": "Selecto Coffee/Methods"
+                }
+            ]
+        }
+    }
+}

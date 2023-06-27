@@ -1,0 +1,20 @@
+{
+    "data": {
+        "storeConfig": {
+            "is_default_view": true,
+            "is_default_store": false,
+            "root_category_id": 213,
+            "root_category_uid": "MjEz",
+            "store_view_code": "selectocoffeebean",
+            "store_code": "selectocoffeebean",
+            "store_name": "Selecto Coffee Bean",
+            "view_name": "Selecto Coffee Bean",
+            "view_order": 0,
+            "site_code": "base",
+            "site_name": "Luma B2C Website",
+            "store_root_category": "Selecto Coffee",
+            "theme": "Magento/luma",
+            "theme_fallback": "Magento/luma"
+        }
+    }
+}

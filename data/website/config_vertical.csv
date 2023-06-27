@@ -1,3 +1,0 @@
-scope,path,value,scope_code
-website,design/head/includes,"<link  rel=""stylesheet"" type=""text/css""  media=""all"" href=""media/misc/luma/styles.css"" />",luma
-website,design/head/shortcut_icon,stores/lumafavicon.png,luma
