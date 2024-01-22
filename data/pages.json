@@ -1,0 +1,19 @@
+{
+    "data": {
+      "cmsPages": {
+        "items": [
+          {
+            "store_view_code": "selectocoffeebean",
+            "identifier": "home",
+            "title": "Home Page",
+            "page_layout": "cms-full-width",
+            "content_heading": "",
+            "content": "<p>{{widget type=\"Magento\\Banner\\Block\\Widget\\Banner\" display_mode=\"fixed\" types=\"content\" rotate=\"\" banner_ids=\"{{dynamicblock name=\"Not Logged In\"}},{{dynamicblock name=\"VIP\"}},{{dynamicblock name=\"Runner\"}},{{dynamicblock name=\"Yoga\"}}\" template=\"widget/block.phtml\" unique_id=\"f91bb74da701824f52d10d816238cdf7\"}}</p>",
+            "meta_description": "",
+            "meta_keywords": "",
+            "meta_title": ""
+          }
+        ]
+      }
+    }
+  }

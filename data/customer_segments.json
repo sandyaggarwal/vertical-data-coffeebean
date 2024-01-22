@@ -1,0 +1,107 @@
+{
+    "data": {
+        "customerSegments": {
+            "items": [
+                {
+                    "name": "Not Logged In",
+                    "apply_to": "2",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\"}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "ASHA Learning Pass VIP",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"email\",\"operator\":\"==\",\"value\":\"vip@thelumastory.com\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base,healthbeauty"
+                },
+                {
+                    "name": "Runner",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"email\",\"operator\":\"==\",\"value\":\"runner@thelumastory.com\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "Yoga",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"email\",\"operator\":\"==\",\"value\":\"yoga@thelumastory.com\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA B2C Guest Customers",
+                    "apply_to": "2",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\"}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA B2C Registered Customers",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\"}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA Rewards - Bronze ($250 - $500)",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"250\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\"<=\",\"value\":\"500\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"group_id\",\"operator\":\"!=\",\"value\":\"{{customergroup name=\"VIP\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA Rewards - Silver ($500 - $1000)",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"500\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\"<=\",\"value\":\"1000\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"group_id\",\"operator\":\"!=\",\"value\":\"{{customergroup name=\"VIP\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA Rewards - Gold ($1000-$2000)",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"1000\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\"<=\",\"value\":\"2000\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"group_id\",\"operator\":\"!=\",\"value\":\"{{customergroup name=\"VIP\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "LUMA Rewards - Platinum ($2000+)",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"any\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"2000\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"group_id\",\"operator\":\"==\",\"value\":\"{{customergroup name=\"VIP\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                
+                {
+                    "name": "Purchase History - VIP Customers",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"any\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Ordersnumber\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"500\",\"is_value_processed\":null,\"aggregator\":\"any\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Order\\\\Status\",\"attribute\":false,\"operator\":\"==\",\"value\":\"complete\",\"is_value_processed\":false},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Order\\\\Status\",\"attribute\":false,\"operator\":\"==\",\"value\":\"processing\",\"is_value_processed\":false}]},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Sales\\\\Salesamount\\\\Interceptor\",\"attribute\":\"total\",\"operator\":\">=\",\"value\":\"10000\",\"is_value_processed\":null,\"aggregator\":\"all\"},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"group_id\",\"operator\":\"==\",\"value\":\"{{customergroup name=\"VIP\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "Shopping Cart - Free Shipping Threshold ($75 - $99)",
+                    "apply_to": "1",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Shoppingcart\\\\Amount\",\"attribute\":\"subtotal\",\"operator\":\">=\",\"value\":\"75\",\"is_value_processed\":false},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Shoppingcart\\\\Amount\",\"attribute\":\"subtotal\",\"operator\":\"<\",\"value\":\"100\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "Equator Newsletter Subscription",
+                    "apply_to": "0",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"all\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"gender\",\"operator\":\"==\",\"value\":\"{{customerattribute code=\"gender:Female\"}}\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                },
+                {
+                    "name": "Wholesale",
+                    "apply_to": "0",
+                    "conditions_serialized": "{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Combine\\\\Root\",\"attribute\":null,\"operator\":null,\"value\":\"1\",\"is_value_processed\":null,\"aggregator\":\"any\",\"conditions\":[{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"firstname\",\"operator\":\"==\",\"value\":\"Jen\",\"is_value_processed\":false},{\"type\":\"Magento\\\\CustomerSegment\\\\Model\\\\Segment\\\\Condition\\\\Customer\\\\Attributes\",\"attribute\":\"firstname\",\"operator\":\"==\",\"value\":\"Dave\",\"is_value_processed\":false}]}",
+                    "description": null,
+                    "site_code": "base"
+                }
+            ]
+        }
+    }
+}

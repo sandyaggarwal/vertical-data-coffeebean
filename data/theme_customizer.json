@@ -1,0 +1,32 @@
+{
+    "data": {
+        "themeCustomizer": {
+            "items": [
+                {
+                    "additional_css": null,
+                    "applied_to": "Magento/luma",
+                    "background_color": "#ffffff",
+                    "block_content_background_color": null,
+                    "button_background_color": "#ffffff",
+                    "button_link_color": "#7a3907",
+                    "button_link_hover_color": "#e3451d",
+                    "category_grid_background_color": null,
+                    "name": "Copy of Copy of Copy of Luma Theme Template [2023-05-31 23:17:27] [2023-06-01 00:02:00] [2023-06-01 20:36:27]",
+                    "nav_background_color": "#f0f0f0",
+                    "nav_dropdown_background_color": null,
+                    "nav_dropdown_link_color": null,
+                    "nav_dropdown_link_hover_color": null,
+                    "nav_link_color": "#f0f0f0",
+                    "nav_link_hover_color": null,
+                    "primary_font_color": "#210c04",
+                    "primary_heading_color": "#590f00",
+                    "primary_link_color": "#1c0f05",
+                    "primary_link_hover_color": null,
+                    "primary_price_color": "#9e3026",
+                    "product_view_background_color": null,
+                    "top_bar_color": "#ff9d47"
+                }
+            ]
+        }
+    }
+}

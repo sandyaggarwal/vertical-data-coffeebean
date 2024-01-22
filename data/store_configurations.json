@@ -12,7 +12,7 @@
                     "path": "design/head/includes",
                     "scope": "stores",
                     "scope_code": "selectocoffeebean",
-                    "value": "<link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"{{MEDIA_URL}}styles.css\" /><!-- START THEME CUSTOMIZER --><link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"https://industrials-plyghvq-blsmelh4mlnm4.demo.magentosite.cloud/media/ThemeCustomizer/MagentoLuma.css\" /><!-- END THEME CUSTOMIZER -->"
+                    "value": "<link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"{{MEDIA_URL}}styles.css\" /><!-- START THEME CUSTOMIZER --><link  rel=\"stylesheet\" type=\"text/css\"  media=\"all\" href=\"{{MEDIA_URL}}ThemeCustomizer/MagentoLuma.css\" /><!-- END THEME CUSTOMIZER -->"
                 },
                 {
                     "path": "design/head/shortcut_icon",
