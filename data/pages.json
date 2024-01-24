@@ -3,7 +3,7 @@
       "cmsPages": {
         "items": [
           {
-            "store_view_code": "selectocoffeebean",
+            "store_view_code": "all",
             "identifier": "home",
             "title": "Home Page",
             "page_layout": "cms-full-width",
